@@ -1,0 +1,216 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - techfest_general
+  - list_events
+  - sponsors
+  - pythonize
+  - thanks
+  - arduino
+  - CircuitalDilemma
+  - HackOverflow
+  - PandoraBoxCTF
+  - ChitChatwithChatbot
+  - Fiducia
+  - registration
+  - RequirementsinArdinosTrial
+  - UniteForUnity
+  - UniteForUnityPrerequisite
+  - CoolYourEngine
+  - CoolYourEngineprerequisite
+  - FizzBuzz
+  - Fizzbuzzprerequisite
+  - FrameTheCrane
+  - RequirementsFrameTheCrane
+  - MechanicalEvent
+  - TakeCharge
+  - CyberExpert
+  - ARVR
+  - iceev
+  - about_tech
+  - contact
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  utter_techfest_general:
+  - text: "Cepheus'21 is the First edition of Annual Technical Fest of IIT Goa to be held in the premises of IIT Goa from 15th-17th January,2021
+  with an exciting array of Technical events, Workshops, and a series of amazing Talks by eminent and noted speakers like Mr.Peter Kelly Senecal,
+  Co-Founder of Convergent Science; Mr.Lorenzo Montagna,President AR/VR Italy and Shri.Rakshit Tandon,Advisor of CyberPeace Foundation.IIT Goa
+  strives to demonstrate its Technical affluence and emphasise the unique and diverse culture of Goa through Cepheus'21. Every 
+  inquisitive Tech Enthusiast is cordially welcomed to attend Cepheus'21.Attendees are requested to register themselves on the official Cepheus
+  website:https://www.iitgoa.ac.in/Cepheus/, print out and bring their registration passes for participating in the events."
+
+  utter_list_events:
+  - text: "15 Jan 2021- HackOverflow -      12 PM Onwards(36 Hour event)\n
+                        Unite for Unity -   12 PM Onwards(48 Hour event)\n
+                        Circuital Dilemma - 4:30-6 PM (Stage-1), 9 PM Onwards(Stage-2, 39 Hour event)\n
+
+          16 Jan 2021-  Take Charge! -      12-1 PM \n
+                        Arduino's Trial -   2-4 PM (Stage-1)\n
+                        Chit-Chat Chatbot - 4-6 PM \n
+                        Pandora's Box-      4 PM Onwards(24 Hour event)\n
+                        Cyber Security Talk-6-7 PM\n
+                        FizzBuzz -          7-10 PM\n
+
+          17 Jan 2021   Arduino's Trial -   2-4 PM (Stage-1)\n
+                      Pythonize Everything- 1-2 PM\n
+                      Talk AR VR-           2-4 PM\n
+                      Fiducia-              4-5 PM\n
+                      Talk ICE/EV-          6:30-7:30 PM\n"
+
+  utter_sponsors:
+  - text: "IIT Goa is honoured to have SNPM Solutions as the Title Sponsor, Airmeet as the Platform Partner, Convergent Science as the
+  Talk Partner and MarkTechPost as the Event Sponsor for the First Annual Technical Fest of IIT Goa: Cepheus'21. "
+  utter_pythonize:
+  - text: "Pythonize Everything is a workshop on Automation of Daily Tasks using Python to be held on 17th Jan,2021 from 1-2 PM\nThe
+   Workshop is sure to enhance the python coder in you and will help you learn how to automate mundane tasks like taking backup of your
+   system, sending emails and sending whatsapp messages. "
+  utter_arduino:
+  - text: "Arduino’s Trial: Atlantis is in havoc. Thanks to the sloppiness of you and your fellow staff members, there’s been a jailbreak.\n
+   You have been summoned to the trial where you must complete a series of technical tasks to prove your innocence. You’ll be required to design a car that would detect and avoid obstacles in order to escort the convict back to prison,\n
+  where you need to build a robust security system to ensure these shenanigans don’t occur again. See if you can swim away from this.\n
+  For further details please visit : https://www.iitgoa.ac.in/Cepheus/static/media/Rulebook.7fd56860.pdf"
+  utter_CircuitalDilemma:
+  - text: "The Event Circuital Dilemma is about designing the best possible circuit for a given logical problem statement.\n 
+  The problem statement will test your logic (intelligence) as well as examine your application skills of using basic circuit elements.\n
+  A team willing to participate in this event can have a minimum of 1 and maximum of 3 members.\n
+  The event will consist of two stages. Stage-1 will be conducted on (Day-0) at sharp 4:30pm and will end at 6:00pm and Stage-2 will be starting on (Day-0) at sharp 9:00pm and will end at 11:59am at (Day-2).\n
+  The registered teams need to submit the solutions and report. A knowledge of  Boolean algebra, logic gates, digital circuit elements is a prerequisite.\n
+  Final Judging will be based on total marks obtained in stage-1 and stage-2 (stage-1 i.e. 30% and stage-2 i.e. 70%). \n
+  For more information contact : Jay Chawrey : 9307432041 or Aditya Jain : 9680639902 or Shantanu Wagh : 7875214466"
+  utter_HackOverflow:
+  - text: "In this event “HackOverflow” there will be one problem statement on which you have to work and come up with a solution in a given time duration.\n
+   The event focuses on the development of Web or App. The website/app must fulfill the standards, and you are free to add your creativity, which would be one of the parameters for judgment.\n
+  The size of the team is 4 members. The team leader will be given the problem statement via whatsapp or email 10 minutes prior to the event. Towards the end, teams will be given up to 15 minutes to present their finished project to a panel of judges.\n
+  Several parameters will be taken into consideration while judging and a higher weightage of the total will be given to presentation.\n
+  For more information contact : Yash Parmar - 7000311028 or Siddharth Singh Solanki - 8818882132 or Shubhanshu Tomer - 8929661054"
+  utter_PandoraBoxCTF:
+  - text: "Pandora’s Box is the Capture the Flag(CTF) competition in Cepheus'21.\n
+   CTFs are a type of competitive hacking event in which the teams participating will get tasks or challenges related to different aspects of cybersecurity.\n
+  Each challenge will have a goal, i.e. to find the hidden flag. Submission of flags gives varying points to the team according to the difficulty of the challenge.\n
+  The team with more points within a shorter time will be the winner. A team can consist of 1-3 members. Event is conducted on CTFd Platform hosted on an external server.\n
+  At the end of the CTF, on the scoreboard, the teams with the highest score are identified and are entitled to a prize. For more information contact :Devang Jain : 8764151448 or Hashir : 9048881188 "
+
+  utter_ChitChatwithChatbot:
+  - text: "A live Coding Workshop “Chit Chat with Chatbot” that guides a complete beginner in building a CHAT BOT from Scratch which aims to serve human queries and give feasible answers!\n
+   This would be followed by a contest to make the best chatbot for a given problem statement.The problem statement will be provided at the time of the main event.3-4 people must be present in a group.\n
+  Basic knowledge of programming language python is a prerequisite. But everything else will be taught from scratch, so no worries.\n
+  It is recommended that you install the RASA framework on your pc. For more information contact : Siddharth Solanki : 8818882132 or Sanjay Mareddi : 7095810642"
+
+  utter_Fiducia:
+  - text: "Fiducia Workshop details : Due to their large and complex attack surface and the difficulty in ensuring they are secure, web applications continue to be a prime target in attacks.\n
+   All it takes is a flaw in the application itself, its framework, the web server or proxy server configuration, or even some third-party component \n
+   (e.g. a JavaScript library that is embedded on each web page) to lead to a full compromise of a host or network. In this session, we will talk both\n
+    generally about the trends in web application security and look at specific examples of how key vulnerabilities arise , paying particular attention to those more subtle cases that usually go under the radar,\n
+    such as within HTML5 applications. The webinar will also explore hacking scenarios based on real-world examples. For more information contact : Kaushal : 8669132952 or Hashir : 9913759592"
+
+
+  utter_registration:
+  - text: "You can register on the website https://www.iitgoa.ac.in/Cepheus/ print your individual passes and bring them on the Cepheis'21 Day!"
+
+  utter_RequirementsinArdinosTrial:
+  - text: "For Arduino’s Trial all work will be done on online software and hence hardware is not required.\n
+   You need to be UG and need to participate in a team of two members only. For further query please contact us."
+
+  utter_UniteForUnity:
+  - text: "Unite for Unity is a game development event. The main objective of this event is to acquaint individuals with the tools and resources to design a game using the Unity Game Engine.\n
+   Thus the event is divided into two themes: 1. Beginner - which is ideal for students just starting with game dev.\n
+    2. Intermediate - Ideal for students who have some experience with unity and have finished at least some minor projects.\n
+     For further details please check https://www.iitgoa.ac.in/Cepheus/static/media/Rulebook.7fd56860.pdf"
+
+  utter_UniteForUnityPrerequisite:
+  - text: "To participate in Unite for Unity the team size should be 3-4 members.\n
+   The team members should be currently in any UG stream and not necessarily from the same college only.\n
+  Unity software should be installed with proper functioning.\
+  The team should have a basic Programming knowledge (C/C++/C#). For further query please contact"
+
+  utter_CoolYourEngine:
+  - text: "Cool your Engine is an online event in which you will be given all required files for the event.\n
+   You are required to design a heat shield for this engine and perform simulations on the same. \n
+   It is expected that the lowest possible temperature is attained along with uniform temperature distribution.\n
+  For further details please check the rulebook https://www.iitgoa.ac.in/Cepheus/static/media/Rulebook.7fd56860.pdf"
+
+  utter_CoolYourEngineprerequisite:
+  - text: "To participate in Cool Your Engine all teams can have a maximum of 3 members.\n
+   Need a basic knowledge of Converge CFD - for simulation and any CAD software can be used for design purposes.\n
+    For further query please contact Saket : 7499136037 2. Darshay Naik : 9913759592."
+
+  utter_FizzBuzz:
+  - text: "We present to you FizzBuzz, a competitive coding contest! It will be 3 hours long and the questions will be based on various concepts from DSA and CP.\n
+   For the first time in our college, the leaderboard of this contest will be based on the ACM ICPC style !\n
+    For further details please check the rulebook https://www.iitgoa.ac.in/Cepheus/static/media/Rulebook.7fd56860.pdf"
+
+  utter_FizzBuzzprerequisite:
+  - text: "Basic knowledge of any programming language, preferably C++, Python or Java.\n
+   2. An account on Hackerrank. Only individual participation is allowed. \n
+   For further query please contact Kartikey Sharma : 8384078124 2. Yash Parmar : 7000311028"
+
+  utter_FrameTheCrane:
+  - text: "Frame the Crane is an offline event in which you will have to design the tower crane as per mentioned dimensions and constraints such that it can carry maximum load with minimum weight.\n
+   Held from 12 Jan - 16 Jan 2021. For further details please check the rulebook https://www.iitgoa.ac.in/Cepheus/static/media/Rulebook.7fd56860.pdf"
+
+  utter_RequirementsFrameTheCrane:
+  - text: "To participate in the Frame the Crane all teams can have a maximum of 4 members.\n
+   Team requires the basic knowledge of Ansys – for simulations and any CAD software for design purposes.\n
+    For further query please contact Shivom Aghalte : 8669132952 2. Darshay Naik : 9913759592"
+
+  utter_MechanicalEvent:
+  - text: "You can participate in the Frame the Crane and Cool Your Engine.\n
+   To know more about the events please visit https://www.iitgoa.ac.in/Cepheus/#events-section"
+
+  utter_TakeCharge:
+  - text: "Take Charge! is a hands-on workshop on Linux CLI. Linux is a family of open-source operating systems based on the Linux kernel.\n
+   Using the CLI gives you full control over what you perform or execute, unlike GUI, in which a lot of processes go on behind the scenes.\n
+    We’ll start off with a theoretical brief about Linux, what all it can do, and why it’s useful.\n
+    The participants will be guided through a process of installing Windows Subsystem for Linux, to enable them to use the Linux terminal, even on Windows.\n
+    The basic commands will be covered first. More complex commands will follow, which enable us to solve problems using the command line.\n
+    Debugging will be discussed side by side.It will be a live hands-on workshop, conducted on Zoom.\n
+    Team Specifications - Individual Participation Pre requisites - a laptop and a good internet connection Contact - Sejal Gupta - 9968065012 or Devyani Maladkar - 9422029653"
+
+  utter_CyberExpert:
+  - text: "Cyber Expert is a Talk on Cybersecurity and web app security by Mr.Rakshit Tandon,Advisor of CyberPeace Foundation, who will\n
+  deliver an insightful session on Cybersecurity and Cybersafety.Individual Participation is allowed."
+  utter_ARVR:
+  - text: "AR-VR Talk is all about the amazing world of virtual and Augmented Reality.Mr.Lorentzo Montagna, President of ARVR Italy will\n
+  deliver an insightful session on the prospects and growth of the AR/VR Industry.Individual Participation is allowed."
+  utter_iceev:
+  - text: "ICE-EV Talk is all about the amazing world of Internal Combustion Engines and Electric Vehicles.\n
+  Mr.Peter Kelly Senecal,Co-Founder of Convergent Science will deliver an insightful session on the prospects and growth of the ICE/EV Industry.\n
+  Individual Participation is allowed."
+  utter_thanks:
+  - text: "Happy to help!"
+  utter_contact:
+  - text: "For further details please contact at 047836836.\n
+  You can also find contact details https://www.iitgoa.ac.in/Cepheus/#contact-us-section"
+actions:
+  - action_about_tech
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
