@@ -1,2 +1,2 @@
-This is a a chatbot created using the RASA Framework that answers basic queries regarding Cepehus'21. We have added all possible questions for all the events and the
-corresponding responses. These include general details about the Techfest, the list of events, the sponsors, contact Number, Registration Procedure and Event Details.For Custom Actions we have imported the Wikpedia Package that gives a brief description of the Technologies used in each of the event.
+This is a a chatbot created using the RASA Framework that answers basic queries regarding Cepheus'21. Added all possible questions for all the events and the
+corresponding responses. These include general details about the Techfest, the list of events, the Sponsors, Contact Number, Registration Procedure and Event Details.For Custom Actions the Wikipedia Package has been imported that gives a brief description of the Technologies used in each of the event.
